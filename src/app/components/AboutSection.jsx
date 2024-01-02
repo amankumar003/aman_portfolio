@@ -23,8 +23,37 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelors Of Technology-ECE (2020-2024)</li>
+        <li>Bachelors Of Technology-ECE CGPA-7.65 (2020-2024)</li>
         <li>Shri Mata Vaishno Devi University, Katra, India</li>
+        <br />
+        <li>ST.Paul Senior Secondary School percentage-86 (2019)</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Responsibilities",
+    id: "Postion of Responsibility",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>
+        <a href="https://gdsc.community.dev/shri-mata-vaishno-devi-university-katra/">Training And Placement Coordinator</a>
+          <li>
+            • Established Google DSC on campus, leading 60+ student developers,
+            fostering a growth mindset
+          </li>
+          <li>
+            • Initiated ”Project Ananta,” managing 10+ community projects with
+            80+ team members and 20 mentors, contributing to community
+            development.
+          </li>
+          <li>
+            • Enhanced communication and public speaking skills by conducting
+            and hosting 23+ sessions on GCP, Web, and ML
+          </li>
+        </li>
+        <li><a href="https://example.com/training-placement">Training And Placement Coordinator</a></li>
+<li><a href="https://www.linkedin.com/company/tech-smvdu/">SMVDU TECH COMMUNITY</a></li>
+
       </ul>
     ),
   },
@@ -34,7 +63,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>MongoDb Certified Node Js Developer r</li>
-        
       </ul>
     ),
   },
@@ -59,10 +87,10 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Node.js, Express, MongoDB,Next.js
-            , HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            working with JavaScript, React, Node.js, Express, MongoDB,Next.js ,
+            HTML, CSS, and Git. I am a quick learner and I am always looking to
+            expand my knowledge and skill set. I am a team player and I am
+            excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

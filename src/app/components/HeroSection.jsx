@@ -26,9 +26,9 @@ const HeroSection = () => {
                 1000,
                 "Full Stack Developer",
                 1000,
-                "ML",
+                "MERN Stack Developer",
                 1000,
-                "Data Engineering",
+                "Data Engineering and ML",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            email at amankumar.er6174@gmail.com, phone.no +91-9797052979.
           </p>
           <div>
             <Link

@@ -56,18 +56,19 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://www.github.com/amankumar003">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/aman-kumar-51089120b/s">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+           
         </div>
       </div>
       <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
-            Email sent successfully! 
+            Thank you, your message has been sent successfully! 
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
