@@ -15,6 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.custom-bg {
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
 
 body {
   color: rgb(var(--foreground-rgb));

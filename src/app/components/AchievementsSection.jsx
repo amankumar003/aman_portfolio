@@ -16,9 +16,10 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    prefix: "~",
     metric: "Leetcode Problems Solved",
-    value: "300+",
+    value: "300",
+    postfix: "+",
+    
   },
   {
     metric: "Awards",

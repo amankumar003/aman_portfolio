@@ -32,27 +32,27 @@ const TAB_DATA = [
   },
   {
     title: "Responsibilities",
-    id: "Postion of Responsibility",
+    id: "Responsibilities",
     content: (
       <ul className="list-disc pl-2">
         <li>
-        <a href="https://gdsc.community.dev/shri-mata-vaishno-devi-university-katra/">Training And Placement Coordinator</a>
+        <a href="https://gdsc.community.dev/shri-mata-vaishno-devi-university-katra/">Google Developer Student Club Lead 23 (link)</a>
           <li>
-            • Established Google DSC on campus, leading 60+ student developers,
+            Established Google DSC on campus, leading 60+ student developers,
             fostering a growth mindset
           </li>
           <li>
-            • Initiated ”Project Ananta,” managing 10+ community projects with
+            Initiated ”Project Ananta,” managing 10+ community projects with
             80+ team members and 20 mentors, contributing to community
             development.
           </li>
           <li>
-            • Enhanced communication and public speaking skills by conducting
+            Enhanced communication and public speaking skills by conducting
             and hosting 23+ sessions on GCP, Web, and ML
           </li>
         </li>
         <li><a href="https://example.com/training-placement">Training And Placement Coordinator</a></li>
-<li><a href="https://www.linkedin.com/company/tech-smvdu/">SMVDU TECH COMMUNITY</a></li>
+<li><a href="https://www.linkedin.com/company/tech-smvdu/">SMVDU TECH COMMUNITY(Link)</a></li>
 
       </ul>
     ),
@@ -99,6 +99,10 @@ const AboutSection = () => {
             >
               {" "}
               Skills{" "}
+            </TabButton>
+            <TabButton selectTab={()=>handleTabChange("Responsibilities")}
+            active = {tab=="Responsibilities"}>
+              {" "}Responsibilities{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
