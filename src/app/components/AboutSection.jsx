@@ -23,10 +23,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelors Of Technology-ECE CGPA-7.65 (2020-2024)</li>
+        <li>Bachelors Of Technology-ECE CGPA-7.65 2020-2024</li>
         <li>Shri Mata Vaishno Devi University, Katra, India</li>
         <br />
-        <li>ST.Paul Senior Secondary School percentage-86 (2019)</li>
+        <li>ST.Paul Senior Secondary School percentage-86 2019</li>
       </ul>
     ),
   },
@@ -37,7 +37,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>
           <a href="https://gdsc.community.dev/shri-mata-vaishno-devi-university-katra/">
-            Google Developer Student Club Lead 23 (link)
+            Google Developer Student Club Lead 23 link
           </a>
           <li>
             Established Google DSC on campus, leading 60+ student developers,
@@ -59,7 +59,7 @@ const TAB_DATA = [
         </li>
         <li>
           <a href="https://www.linkedin.com/company/tech-smvdu/">
-            SMVDU TECH COMMUNITY(Link)
+            SMVDU TECH COMMUNITY Link
           </a>
         </li>
       </ul>
@@ -73,7 +73,7 @@ const TAB_DATA = [
         <li>
           BRAINLOX | AI Intern
           <li>
-            Developed Back-end APIs with AWS Lambda and API Gateway for chatbot{" "}
+            Developed Back-end APIs with AWS Lambda and API Gateway for chatbot
           </li>
           <li>
             Architected a CMS infrastructure that resulted in improved
@@ -81,8 +81,8 @@ const TAB_DATA = [
           </li>
           <li>
             Implementeed efficient page routing, integrated bot apis in
-            company’s web application (Brainlox.ai), leveraging React.js and
-            Nodejs,resulting in enhanced 40% customer engagement.{" "}
+            companys web application Brainlox.ai, leveraging React.js and
+            Nodejs,resulting in enhanced 40% customer engagement.
           </li>
           <li>
             Developed and maintained server-side logic integrating with a
@@ -123,7 +123,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="myImage" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
