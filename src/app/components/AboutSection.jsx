@@ -36,33 +36,75 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-        <a href="https://gdsc.community.dev/shri-mata-vaishno-devi-university-katra/">Google Developer Student Club Lead 23 (link)</a>
+          <a href="https://gdsc.community.dev/shri-mata-vaishno-devi-university-katra/">
+            Google Developer Student Club Lead 23 (link)
+          </a>
           <li>
             Established Google DSC on campus, leading 60+ student developers,
             fostering a growth mindset
           </li>
           <li>
-            Initiated ”Project Ananta,” managing 10+ community projects with
-            80+ team members and 20 mentors, contributing to community
-            development.
+            Initiated ”Project Ananta,” managing 10+ community projects with 80+
+            team members and 20 mentors, contributing to community development.
           </li>
           <li>
-            Enhanced communication and public speaking skills by conducting
-            and hosting 23+ sessions on GCP, Web, and ML
+            Enhanced communication and public speaking skills by conducting and
+            hosting 23+ sessions on GCP, Web, and ML
           </li>
         </li>
-        <li><a href="https://example.com/training-placement">Training And Placement Coordinator</a></li>
-<li><a href="https://www.linkedin.com/company/tech-smvdu/">SMVDU TECH COMMUNITY(Link)</a></li>
-
+        <li>
+          <a href="https://example.com/training-placement">
+            Training And Placement Coordinator
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/tech-smvdu/">
+            SMVDU TECH COMMUNITY(Link)
+          </a>
+        </li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Experince",
+    id: "Experince",
     content: (
       <ul className="list-disc pl-2">
-        <li>MongoDb Certified Node Js Developer r</li>
+        <li>
+          BRAINLOX | AI Intern
+          <li>
+            Developed Back-end APIs with AWS Lambda and API Gateway for chatbot{" "}
+          </li>
+          <li>
+            Architected a CMS infrastructure that resulted in improved
+            performance from 45% to 99% success rate
+          </li>
+          <li>
+            Implementeed efficient page routing, integrated bot apis in
+            company’s web application (Brainlox.ai), leveraging React.js and
+            Nodejs,resulting in enhanced 40% customer engagement.{" "}
+          </li>
+          <li>
+            Developed and maintained server-side logic integrating with a
+            variety of data sources and complex APIs
+          </li>
+        </li>
+        <li>
+          LOCALYTEE | Software Engineer Intern
+          <li>
+            Developed React.Js landing page tailored for a US-based real estate
+            client with, enhancing user experience.
+          </li>
+          <li>
+            Addressed and rectified 30+ bugs, front-end issues in the mobile
+            app, utilizing React-native for optimization.
+          </li>
+          <li>
+            Participated in Agile development processes and Scrum meetings,
+            resulting in a 20% increase in project completion rate and a 15%
+            reduction in project costs.
+          </li>
+        </li>
       </ul>
     ),
   },
@@ -100,9 +142,12 @@ const AboutSection = () => {
               {" "}
               Skills{" "}
             </TabButton>
-            <TabButton selectTab={()=>handleTabChange("Responsibilities")}
-            active = {tab=="Responsibilities"}>
-              {" "}Responsibilities{" "}
+            <TabButton
+              selectTab={() => handleTabChange("Responsibilities")}
+              active={tab == "Responsibilities"}
+            >
+              {" "}
+              Responsibilities{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
@@ -112,11 +157,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("Experince")}
+              active={tab === "Experince"}
             >
               {" "}
-              Certifications{" "}
+              Experince{" "}
             </TabButton>
           </div>
           <div className="mt-8">
