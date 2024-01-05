@@ -1,6 +1,6 @@
 # Portfolio Website
 LINKS
-Deployed link - [aman_portfolio](amanportfolio-six.vercel.app)
+Deployed link - [aman_portfolio](https://port-aman-two.vercel.app/)
 
 `amanportfolio-git-main-aman-kumars-projects-6afad4a0.vercel.app`
 `amanportfolio-katzwtier-aman-kumars-projects-6afad4a0.vercel.app`
